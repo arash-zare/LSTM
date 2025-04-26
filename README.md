@@ -59,10 +59,6 @@
 
 ## 🏗️ روند کلی سیستم
 
-## 🏗️ روند کلی سیستم
-
-## 🏗️ روند کلی سیستم
-
 ```mermaid
 flowchart TD
     A[VictoriaMetrics] -->|PromQL| B[Data Fetcher]
@@ -73,4 +69,3 @@ flowchart TD
     F --> G{Is Anomaly?}
     G -->|Yes/No| H[Expose via Flask /metrics]
     H --> I[Prometheus Scrapes Metrics]
-
